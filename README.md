@@ -46,7 +46,7 @@ import "github.com/biter777/moon"
 m := moon.New(time.Now())
 fmt.Printf("Moon phase with emoji: %v\n", m.PhaseName(language.English, true))
 fmt.Printf("Moon illumination: %v\n", int(m.Illumination*100)+"%")
-fmt.Printf("Moon day (Moon age): %v\n", int(m.Age*100))
+fmt.Printf("Moon day (Moon age): %v\n", int(m.Age))
 fmt.Printf("Full Moon in the current cycle at: %v\n", m.FullMoon())
 fmt.Printf("Full Moon in the next cycle at: %v\n", m.NextFullMoon())
 fmt.Printf("New Moon in the current cycle at: %v\n", m.NewMoon())
