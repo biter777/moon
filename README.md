@@ -8,8 +8,8 @@
 - True Moon longitude
 - Luminous Fraction of the Moon
 - Physical data and parameters of the Moon
-- Supported languages: English, French, German, Spanish, Italian, Russian, Ukrainian
 - Emoji supported
+- Supported languages: English, French, German, Spanish, Italian, Russian, Ukrainian
 
 
 [![GoDev](https://img.shields.io/badge/godev-reference-5b77b3)](https://pkg.go.dev/github.com/biter777/moon?tab=doc)
