@@ -683,7 +683,7 @@ func (m *Moon) positiveRu() []string {
 	case 12:
 		return []string{"сад", "сны", "стрижка", "общение"}
 	case 13:
-		return []string{"общение", "дом", "секс", "творчество", "обучение", "сны", "финансы", "алко", "стрижка"}
+		return []string{"общение", "секс", "алко", "обучение", "сад", "финансы", "стрижка", "нагрузки"}
 	case 14:
 		return []string{"начинания", "финансы", "творчество", "путешествия", "дом", "общение", "обучение", "сад", "нагрузки", "зачатие"}
 	case 15:
@@ -750,7 +750,7 @@ func (m *Moon) positiveUa() []string {
 	case 12:
 		return []string{"садок", "сни", "стрижка", "спілкування"}
 	case 13:
-		return []string{"спілкування", "дім", "секс", "творчість", "навчання", "сни", "фінанси", "алко", "стрижка"}
+		return []string{"спілкування", "секс", "алко", "навчання", "сад", "фінанси", "стрижка", "навантаження"}
 	case 14:
 		return []string{"починання", "фінанси", "творчість", "подорожі", "будинок", "спілкування", "навчання", "сад", "навантаження", "зачаття"}
 	case 15:
@@ -817,7 +817,7 @@ func (m *Moon) positiveDe() []string {
 	case 12:
 		return []string{"garden", "dreams", "haircut", "socialization"}
 	case 13:
-		return []string{"Kommunikation", "Zuhause", "Sex", "Kreativität", "Lernen", "Träume", "Finanzen", "Alkohol", "Haarschnitt"}
+		return []string{"Kommunikation", "Sex", "Alkohol", "Training", "Garten", "Finanzen", "Haarschnitt", "Belastung"}
 	case 14:
 		return []string{"Anfänge", "Finanzen", "Kreativität", "Reisen", "Zuhause", "Kommunikation", "Lernen", "Garten", "Belastung", "Konzeption"}
 	case 15:
@@ -884,7 +884,7 @@ func (m *Moon) positiveEs() []string {
 	case 12:
 		return []string{"jardín", "sueños", "corte de pelo", "socialización"}
 	case 13:
-		return []string{"comunicación", "hogar", "sexo", "creatividad", "aprendizaje", "sueños", "finanzas", "alcohol", "corte de pelo"}
+		return []string{"comunicación", "sexo", "alcohol", "entrenamiento", "jardín", "finanzas", "corte de pelo", "carga"}
 	case 14:
 		return []string{"comienzos", "finanzas", "creatividad", "viajes", "casa", "comunicación", "aprendizaje", "jardín", "carga", "concepción"}
 	case 15:
@@ -951,7 +951,7 @@ func (m *Moon) positiveFr() []string {
 	case 12:
 		return []string{"jardin", "rêves", "coupe de cheveux", "socialisation"}
 	case 13:
-		return []string{"communication", "maison", "sexe", "créativité", "apprentissage", "rêves", "finance", "alcool", "coupe de cheveux"}
+		return []string{"communication", "sexe", "alcool", "formation", "jardin", "finance", "coupe de cheveux", "charge"}
 	case 14:
 		return []string{"débuts", "finance", "créativité", "voyage", "maison", "communication", "apprentissage", "jardin", "charge", "conception"}
 	case 15:
@@ -1018,7 +1018,7 @@ func (m *Moon) positiveIt() []string {
 	case 12:
 		return []string{"giardino", "sogni", "taglio di capelli", "socializzazione"}
 	case 13:
-		return []string{"comunicazione", "casa", "sesso", "creatività", "apprendimento", "sogni", "finanza", "alcol", "taglio di capelli"}
+		return []string{"comunicazione", "sesso", "alcol", "formazione", "giardino", "finanza", "taglio di capelli", "carico"}
 	case 14:
 		return []string{"inizio", "finanza", "creatività", "viaggio", "casa", "comunicazione", "apprendimento", "giardino", "carico", "concezione"}
 	case 15:
@@ -1085,7 +1085,7 @@ func (m *Moon) positiveEn() []string {
 	case 12:
 		return []string{"garden", "dreams", "haircut", "socialization"}
 	case 13:
-		return []string{"communication", "home", "sex", "creativity", "learning", "dreams", "finance", "alcohol", "haircut"}
+		return []string{"communication", "sex", "alcohol", "training", "garden", "finance", "haircut", "load"}
 	case 14:
 		return []string{"beginnings", "finance", "creativity", "travelling", "home", "communication", "learning", "garden", "load", "conception"}
 	case 15:
@@ -1152,7 +1152,7 @@ func (m *Moon) negativeRu() []string {
 	case 12:
 		return []string{"начинания", "финансы", "алко", "дом", "споры", "путешествия", "недвижимость", "творчество"}
 	case 13:
-		return []string{"начинания", "дом", "споры", "путешествия", "творчество"}
+		return []string{"начинания", "дом", "споры", "путешествия", "зачатие", "брак"}
 	case 14:
 		return []string{"отдых", "алко", "споры", "сны"}
 	case 15:
@@ -1219,7 +1219,7 @@ func (m *Moon) negativeDe() []string {
 	case 12:
 		return []string{"Anfänge", "Finanzen", "Alco", "Zuhause", "Streitigkeiten", "Reisen", "Immobilien", "Kreativität"}
 	case 13:
-		return []string{"Anfänge", "Heimat", "Streitigkeiten", "Reisen", "Kreativität"}
+		return []string{"Anfänge", "Heimat", "Streitigkeiten", "Reisen", "Empfängnis", "Ehe"}
 	case 14:
 		return []string{"rest", "alco", "arguments", "dreams"}
 	case 15:
@@ -1286,7 +1286,7 @@ func (m *Moon) negativeEs() []string {
 	case 12:
 		return []string{"comienzos", "finanzas", "alco", "casa", "disputas", "viajes", "bienes raíces", "creatividad"}
 	case 13:
-		return []string{"comienzos", "casa", "disputas", "viajes", "creatividad"}
+		return []string{"comienzos", "hogar", "disputas", "viajes", "concepción", "matrimonio"}
 	case 14:
 		return []string{"descanso", "alco", "argumentos", "sueños"}
 	case 15:
@@ -1353,7 +1353,7 @@ func (m *Moon) negativeFr() []string {
 	case 12:
 		return []string{"débuts", "finance", "alco", "maison", "litiges", "voyages", "immobilier", "créativité"}
 	case 13:
-		return []string{"débuts", "maison", "contestations", "voyages", "créativité"}
+		return []string{"débuts", "maison", "disputes", "voyage", "conception", "mariage"}
 	case 14:
 		return []string{"rest", "alco", "arguments", "dreams"}
 	case 15:
@@ -1420,7 +1420,7 @@ func (m *Moon) negativeIt() []string {
 	case 12:
 		return []string{"inizi", "finanza", "alco", "casa", "controversie", "viaggi", "immobiliare", "creatività"}
 	case 13:
-		return []string{"inizi", "home", "controversie", "viaggi", "creatività"}
+		return []string{"inizi", "casa", "controversie", "viaggio", "concezione", "matrimonio"}
 	case 14:
 		return []string{"riposo", "alco", "argomenti", "sogni"}
 	case 15:
@@ -1487,7 +1487,7 @@ func (m *Moon) negativeUa() []string {
 	case 12:
 		return []string{"починання", "фінанси", "алко", "будинок", "спори", "подорожі", "нерухомість", "творчість"}
 	case 13:
-		return []string{"починання", "будинок", "суперечки", "подорожі", "творчість"}
+		return []string{"починання", "дім", "спори", "подорожі", "зачаття", "шлюб"}
 	case 14:
 		return []string{"відпочинок", "алко", "спори", "сни"}
 	case 15:
@@ -1554,7 +1554,7 @@ func (m *Moon) negativeEn() []string {
 	case 12:
 		return []string{"beginnings", "finance", "alco", "home", "disputes", "travel", "real estate", "creativity"}
 	case 13:
-		return []string{"beginnings", "home", "disputes", "travel", "creativity"}
+		return []string{"beginnings", "home", "disputes", "travel", "conception", "marriage"}
 	case 14:
 		return []string{"rest", "alco", "arguments", "dreams"}
 	case 15:
